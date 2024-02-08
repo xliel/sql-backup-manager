@@ -1,0 +1,23 @@
+{
+  "name": "sql-backup-manager",
+  "version": "1.0.0",
+  "description": "A simple SQL backup manager for MySQL databases.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "xliel (Discord ID: 417398665670295572 | Web: https://xliel.com/)",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@skyra/timestamp": "^1.0.0",
+    "axios": "^1.6.7",
+    "chalk": "^4.1.2",
+    "date-fns": "^3.3.1",
+    "dotenv": "^16.0.1",
+    "mysql2": "^2.3.3",
+    "mysqldump": "^3.2.0",
+    "node-cron": "^3.0.1"
+  }
+}
